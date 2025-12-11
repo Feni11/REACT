@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(237, 233, 228, 1);
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+/* first Page */
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 40%;
+  display: flex;
+}
+
+img {
+  width: 40%;
+}
+
+.menu {
+  width: 70%;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+ul li {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Lato 400 normal;
+}
+
+/* Second Page */
+
+.main-sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sec1 {
+  width: 50%;
+}
+
+.sec1 h1 {
+  font-family: "Cormorant SC", serif;
+  font-weight: normal;
+  font-size: 41px;
+  line-height: 48px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.sec1 p {
+  text-align: left;
+  margin: 10px 30px 0 0;
+  font-size: 15px;
+}
+
+.sec2 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.sec2 img {
+  width: 60%;
+}
+
+.btn {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+}
+
+button {
+  border: 1px solid black;
+  padding: 13px;
+  background-color: black;
+  color: white;
+
+}
+
+/* responsive */
+
+@media (max-width: 1140px) {
+
+  .sec1 {
+    width: 47%;
+  }
+
+  .sec2 {
+    width: 47%;
+  }
+
+  .logo{
+    margin-left: 35px;
+  }
+
+}
+
+@media (max-width: 578px) {
+
+  .main-sec {
+    display: block;
+  }
+
+  .sec1 {
+    width: 100%;
+  }
+
+  .sec1 h1 {
+    text-align: center;
+    margin: 9% 13% 0 13%;
+    font-size: 47px;
+  }
+
+  .sec1 p {
+    text-align: center;
+    margin: 0 26%;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .sec1 .btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 13%;
+    margin-top: 15px;
+  }
+
+  .sec2 {
+    width: 70%;
+    display: inline;
+  }
+
+  .sec2 img {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 55%;
+  }
+
+}
