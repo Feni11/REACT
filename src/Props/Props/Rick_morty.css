@@ -330,6 +330,7 @@ h1 {
   .w-50 {
     flex-direction: column;
     height: auto;
+    width: 85%;
   }
 
   .w-40 {
